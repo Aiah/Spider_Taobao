@@ -122,6 +122,4 @@ def createFold():
         os.mkdir("E:/program/Python/spam_detection/comments/comment&nid={}/".format(id[0]))
 
 if __name__ == "__main__":
-    # action()
-    ids = readfile('ids.txt')
-    getsale(ids[0][0])
+    action()
