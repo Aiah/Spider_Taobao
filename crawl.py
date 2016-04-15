@@ -88,9 +88,9 @@ def getcontent(page):
 
 def action():
     ids = readfile('ids.txt')
-    pagenum = 36
+    pagenum = 1
     ratetype = 1
-    for i in range(4, len(ids)):
+    for i in range(0, len(ids)):
         while 1:
             content = getreview(ids[i][0], ids[i][1], pagenum, ratetype).encode('utf8')
             print('complete:{}, {}, {}'.format(ids[i], pagenum, ratetype))
